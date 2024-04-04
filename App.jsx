@@ -11,7 +11,6 @@ function TodoList() {
     const newTodos = [...todo]
     newTodos.splice(id, 1)
     setTodo(newTodos)
-
   }
 
   function editItem(id) {
