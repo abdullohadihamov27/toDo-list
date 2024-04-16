@@ -1,0 +1,110 @@
+.login-container {
+    margin-top: -6pc;
+    padding-top: 4pc;
+    padding-bottom: 1.25rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    background-image: url("https://img.freepik.com/premium-photo/cool-wallpapers_947865-15226.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-style {
+    background-color: transparent;
+    width: 330px;
+    padding: 40px;
+    margin: 90px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    padding-bottom: 5pc;
+    border: 2px solid ;
+    backdrop-filter: blur(4px);
+}
+
+.nine h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #222;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.nine h1 span {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #444;
+    word-spacing: 1px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.nine h1 span:after,
+.nine h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    height: 7px;
+}
+
+label {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.sing-in {
+    display: inline-block;
+    padding: 11px 90px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    margin-left: 3pc;
+    margin-top: 4pc;
+    border: 2px solid;
+}
+.sing-in:hover {
+    transition: 1s;
+    border: 2px solid rgb(255, 82, 100);
+    color: rgb(184, 17, 64);
+}
+.find-password {
+    margin-top: 2pc;
+    display: flex;
+    justify-content: space-between;
+}
+span {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(196, 201, 188);
+}
+.singUp-btn {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(196, 201, 188);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.singUp-btn:hover {
+    text-decoration: underline;
+    transition: 1s;
+    color: rgb(184, 17, 64);
+    list-style-type: circle;
+}

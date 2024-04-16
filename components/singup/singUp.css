@@ -1,0 +1,46 @@
+.sing-container{
+    margin-top: -5.75pc;
+    padding-top: 1.5pc;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(83,94,100);
+    padding-bottom: 0.76pc;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/312/851/784/dolomiti-italy-autumn-lago-antorno-landscape-photography-desktop-hd-wallpaper-for-pc-tablet-and-mobile-3840%C3%972400-wallpaper-preview.jpg");
+}
+.sing-up{
+    display: inline-block;
+    padding: 11px 70px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    background: none;
+    margin-top: 2pc;
+    border: 2px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#userName,
+#password,#fullName {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    font-weight: 14px;
+    border-radius: 8px;
+}
+.log-out{
+    float: right;
+    padding: 11.4px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    background: none;
+    margin-left: 3pc;
+    margin-top: -2.8pc;
+    border: 2px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
